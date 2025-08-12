@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 40px;
 }
 
 /* Header */
@@ -342,72 +342,59 @@ h1 {
 
 /* Card*/
 .img-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .rifle-images {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 1.5rem;
+    display: flex;
+    gap: 20px; /* Espacio entre imágenes */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .rifle-images img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* o el tamaño que desees */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-content {
+    max-width: 600px;
 }
 
 .card-content h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .card-content p {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-
-.card-btn {
-  text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .card-btn button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
+    background-color: #000; /* Cambia al color que quieras */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 .card-btn button:hover {
-  background-color: #555;
+    background-color: #444;
 }
-
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .card-img .rifle-images img {
-      width: 50%;
-
-    }
-  }
 
 /*Imagen descuento*/
 :root{
@@ -418,7 +405,7 @@ h1 {
   .promo-hero{
     width: 100%;
     min-height: 360px;           
-    background-image: url('img/imgdesc.jpeg'); 
+    background-image: url('/img/imgdesc.jpeg'); 
     background-size: cover;
     background-position: center;
     position: relative;
