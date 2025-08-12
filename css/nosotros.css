@@ -178,3 +178,9 @@ footer {
         display: none; /* Podrías luego hacer un menú hamburguesa */
     }
 }
+/*logo*/
+.logo {
+  text-decoration: none;
+  border-bottom: none;
+  box-shadow: none;
+}

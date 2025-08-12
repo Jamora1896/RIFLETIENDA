@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+
+.nav-center {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-center a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.nav-center a:hover {
+    color: #c41e3a; /* Rojo estilo rebajas */
+}
+
+.nav-center .sale {
+    color: #c41e3a;
+}
+
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem;
+}
+
+.icon-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: #000;
+}
+
+.icon-btn:hover svg {
+    fill: #c41e3a;
+}
+
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #c41e3a;
+    color: white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+section.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+/* Sección principal del footer */
+footer {
+  background-color: #fff;
+  padding: 40px 60px;
+  border-top: 1px solid #ddd;
+  color: #333;
+}
+
+footer h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #111;
+}
+
+footer h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Layout de tiendas y mapa */
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+footer > div > div {
+  flex: 1 1 45%;
+}
+
+/* Estilo para cada tienda */
+footer > div > div > div {
+  background-color: #e6e6e6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Mapa */
+iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer de íconos */
+footer:last-of-type {
+  background-color: #111;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer:last-of-type a svg {
+  transition: transform 0.3s ease;
+}
+
+footer:last-of-type a:hover svg {
+  transform: scale(1.1);
+}
+/*logo*/
+.logo {
+  text-decoration: none;
+  border-bottom: none;
+  box-shadow: none;
+}
