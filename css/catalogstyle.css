@@ -300,7 +300,7 @@ body:not(:has(:target)) .catalogo .producth-card {
   width: 100%;
   height: 100%;
   object-fit: cover; 
-  }
+}
 
 .hero-content {
   position: absolute;
