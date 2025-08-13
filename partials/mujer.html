@@ -36,7 +36,7 @@
                         <path
                             d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
                     </svg>
-                    <span class="cart-count" id="cartCount">0</span>
+                
                 </button>
             </div>
         </div>
@@ -49,29 +49,22 @@
         <div class="hero-content">
             <h1 class="hero-title">ROPA<br>MUJER</h1>
         </div>
+        </div>
     </section>
-    <div class="container text-center mt-4">
-  </div>
-  <!-- Filtros -->
-  <section class="filters">
-  <!-- Radio buttons ocultos -->
-  <input type="radio" name="category" id="all" checked hidden>
-  <input type="radio" name="category" id="men" hidden>
-  <input type="radio" name="category" id="women" hidden>
-
+    <!-- Filtros -->
     <!-- Etiquetas como botones -->
-  <div class="filter-buttons">
-    <a href="/partials/mujer.html" class="filter-btn">ver todo</a>
-    
-    <label for="jeans" class="filter-btn">Jeans</label>
-    <label for="t-shirts" class="filter-btn">Camisetas</label>
-    <label for="shirts" class="filter-btn">Camisas</label>
-    <label for="jackets" class="filter-btn">Chaquetas Y Buzos</label>
-
-  </div>
-</section>
-
-
+    <div class="filter-buttons">
+        <a href="#todo" class="filter-btn">VER TODO</a>
+        <a href="#jeans" class="filter-btn">JEANS</a>
+        <a href="#t-shirts" class="filter-btn">CAMISETAS</a>
+        <a href="#shirts" class="filter-btn">CAMISAS</a>
+        <a href="#jackets" class="filter-btn">VESTIDOS</a>
+    </div>
+    <span id="jeans"></span>
+    <span id="t-shirts"></span>
+    <span id="shirts"></span>
+    <span id="jackets"></span>
+    </section>
 <section class="catalogo">
     <div class="container my-5">
         <h1 class="text-center mb-4"></h1>
@@ -79,15 +72,15 @@
 
             <!--Producto1-->
             <div class="col-md-4">
-                <div class="product-card ">
+                <div class="producth-card jackets ">
                     <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img1.webp" class="d-block w-100" alt="chaleco">
+                                <img src="/img/catalogoMujer/img1.webp" class="d-block w-100" alt="vestido">
                             </div>
                             <div class="carousel-item">
                                 <img src="/img/catalogoMujer/img1.2.webp" class="d-block w-100"
-                                    alt="chaleco">
+                                    alt="vestido">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
@@ -100,25 +93,26 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Chaleco en velvet con abertura en espalda para mujer</h5>
-                        <p>chaleco de mujer mezcla elegancia con las tendencias.  </p>
-                        <div class="product-price">$179.900</div>
+                        <h5>Vestido largo efecto tejido para mujer</h5>
+                        <p>Vestido largo tejido para mujer. Con un diseño que combina sofisticación y estilo, tela con efecto tejido.</p>
+                        <div class="product-price">$169.900</div>
                          <a href="/partials/producto2mujer.html" class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
-                    </div><br>
+                    </div>
                 </div>
             </div>
-            <!--Producto2-->
+<!--Producto2-->            
             <div class="col-md-4">
-                <div class="product-card ">
+                <div class="producth-card jackets ">
+                
                     <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img2.webp" class="d-block w-100"
-                                    alt="camisa">
+                                <img src="/img/catalogoMujer/img9.webp" class="d-block w-100"
+                                    alt="Vestido">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img2.2.webp" class="d-block w-100"
-                                    alt="Camisa">
+                                <img src="/img/catalogoMujer/img9.2.webp  " class="d-block w-100"
+                                    alt="Vestido">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
@@ -131,26 +125,25 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Camisa efecto cuero con bolsillos en frente para mujer</h5>
-                        <p>Camisa de efecto cuero para transformar el estilo personal.</p>
-                        <div class="product-price">$179.900</div>
-                         <a href="/partials/producto1mujer.html" class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
+                        <h5>Vestido corto con escote para mujer</h5>
+                        <p>Vestido para mujer. Diseño corto con escote en frente y escote en espalda con tira para anudar.</p>
+                        <div class="product-price">$129.900</div>
+                        <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
                     </div>
                 </div>
             </div>
-
             <!--Producto3-->
             <div class="col-md-4">
-                <div class="product-card ">
+                <div class="producth-card shirts">
                     <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img3.webp" class="d-block w-100"
-                                    alt="short">
+                                <img src="/img/catalogoMujer/img2.webp" class="d-block w-100"
+                                    alt="camisa">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img3.2.webp" class="d-block w-100"
-                                    alt="short">
+                                <img src="/img/catalogoMujer/img2.2.webp" class="d-block w-100"
+                                    alt="Camisa">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
@@ -163,25 +156,26 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Short amplio tono medio para mujer  </h5>
-                        <p>Bermuda para mujer con una vibra versátil. Su silueta amplia y tono medio crean un look relajado con actitud.</p>
-                        <div class="product-price">$159.900</div>
-                         <a href="/partials/producto3mujer.html" class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
+                        <h5>Camisa efecto cuero con bolsillos en frente para mujer</h5>
+                        <p>Camisa de efecto cuero para transformar el estilo personal. Confeccionada en una tela especial .</p>
+                        <div class="product-price">$179.900</div>
+                         <a href="/partials/producto1mujer.html" class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
                     </div>
                 </div>
             </div>
 <!--Producto4-->
             <div class="col-md-4">
-                <div class="product-card ">
+                <div class="producth-card shirts">
+                
                     <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img4.webp" class="d-block w-100"
-                                    alt="Jean">
+                                <img src="/img/catalogoMujer/img7.webp" class="d-block w-100"
+                                    alt="Camisa">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img4.2.webp" class="d-block w-100"
-                                    alt="Jean">
+                                <img src="/img/catalogoMujer/img7.2.webp" class="d-block w-100"
+                                    alt="Camisa">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel4"
@@ -194,25 +188,26 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Jean Wide Leg tono claro con cinturón para mujer </h5>
-                        <p>Estos jeans de diseño Wide Leg se ajustan suavemente en la cadera y se abren con amplitud en rodilla y bota.</p>
-                        <div class="product-price">$199.900</div>
+                        <h5>Camisa clásica para mujer</h5>
+                        <p>Camisa para mujer. Diseño clásico de regular fit con cuello de solapa y manga larga  Estilo estampado con perilla de botones. </p>
+                        <div class="product-price">$129.900</div>
                         <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
                     </div>
-                </div><br>
+                </div>
             </div>
-<!--Producto5-->
+
+            <!--Producto5-->
             <div class="col-md-4">
-                <div class="product-card">
+                <div class="producth-card t-shirts">
                     <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img5.webp" class="d-block w-100"
-                                    alt="Camiseta">
+                                <img src="/img/catalogoMujer/img3.webp" class="d-block w-100"
+                                    alt="camiseta">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img5.2.webp" class="d-block w-100"
-                                    alt="Camiseta">
+                                <img src="/img/catalogoMujer/img3.2.webp" class="d-block w-100"
+                                    alt="camiseta">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel5"
@@ -225,24 +220,24 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Camiseta cuello redondo estampada para mujer</h5>
-                        <p>Camiseta básica para mujer que dará actitud para el día a día.</p>
-                        <div class="product-price">$59.900</div>
-                        <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
+                        <h5>Camiseta con animal print para mujer </h5>
+                        <p>Una camiseta para mujer con el toque justo de audacia. </p>
+                        <div class="product-price">$49.900</div>
+                         <a href="/partials/producto3mujer.html" class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
                     </div>
                 </div>
             </div>
 <!--Producto6-->
             <div class="col-md-4">
-                <div class="product-card ">
+                <div class="producth-card t-shirts">
                     <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img6.webp" class="d-block w-100"
+                                <img src="/img/catalogoMujer/img5.webp" class="d-block w-100"
                                     alt="Camiseta">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img6.2.webp" class="d-block w-100"
+                                <img src="/img/catalogoMujer/img5.2.webp" class="d-block w-100"
                                     alt="Camiseta">
                             </div>
                         </div>
@@ -256,26 +251,25 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Camiseta ajustada con escote en espalda para mujer</h5>
-                        <p>camiseta para mujer de fit ajustado y escote en la espalda. </p>
-                        <div class="product-price">$89.900</div>
+                        <h5>Camiseta cuello redondo estampada para mujer</h5>
+                        <p>Camiseta básica para mujer que dará actitud para el día a día.</p>
+                        <div class="product-price">$59.900</div>
                         <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
                     </div>
                 </div>
             </div>
-<!--Producto7-->
-            <div class="col-md-4">
-                <div class="product-card">
-                
+<!--Producto7-->            
+             <div class="col-md-4">
+                <div class="producth-card t-shirts">
                     <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img7.webp" class="d-block w-100"
-                                    alt="Camisa">
+                                <img src="/img/catalogoMujer/img6.webp" class="d-block w-100"
+                                    alt="Camiseta">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img7.2.webp" class="d-block w-100"
-                                    alt="Camisa">
+                                <img src="/img/catalogoMujer/img6.2.webp" class="d-block w-100"
+                                    alt="Camiseta">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel7"
@@ -288,25 +282,25 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Camisa clásica para mujer</h5>
-                        <p>Camisa para mujer. Diseño clásico de regular fit con cuello de solapa y manga larga. </p>
-                        <div class="product-price">$129.900</div>
+                        <h5>Camiseta ajustada con escote en espalda para mujer</h5>
+                        <p>camiseta para mujer de fit ajustado y escote en la espalda. </p>
+                        <div class="product-price">$89.900</div>
                         <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
                     </div>
                 </div>
             </div>
 <!--Producto8-->
             <div class="col-md-4">
-                <div class="product-card">
+                <div class="producth-card jeans">
                     <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img8.webp" class="d-block w-100"
-                                    alt="Falda">
+                                <img src="/img/catalogoMujer/img4.webp" class="d-block w-100"
+                                    alt="Jean">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img8.2.webp" class="d-block w-100"
-                                    alt="Falda">
+                                <img src="/img/catalogoMujer/img4.2.webp" class="d-block w-100"
+                                    alt="Jean">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel8"
@@ -319,26 +313,25 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Falda corta de tablas para mujer</h5>
-                        <p>Una falda para mujer corta en con tablas que realzan su movimiento.</p>
-                        <div class="product-price">$159.900</div>
+                        <h5>Jean Wide Leg tono claro con cinturón para mujer </h5>
+                        <p>Estos jeans que se justan suavemente en la cadera .</p>
+                        <div class="product-price">$199.900</div>
                         <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
                     </div>
-                </div>
+                </div><br>
             </div>
-<!--Producto9-->
+ <!--Producto9-->           
             <div class="col-md-4">
-                <div class="product-card ">
-                
+                <div class="producth-card jeans">
                     <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/catalogoMujer/img9.webp" class="d-block w-100"
-                                    alt="Vestido">
+                                <img src="/img/catalogoMujer/img8.webp" class="d-block w-100"
+                                    alt="pantalon">
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/catalogoMujer/img9.2.webp  " class="d-block w-100"
-                                    alt="Vestido">
+                                <img src="/img/catalogoMujer/img8.2.webp" class="d-block w-100"
+                                    alt="pantalon">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel9"
@@ -351,13 +344,15 @@
                         </button>
                     </div>
                     <div class="product-info">
-                        <h5>Vestido corto con escote para mujer</h5>
-                        <p>Vestido para mujer. Diseño corto con escote en frente y escote en espalda con tira para anudar.</p>
-                        <div class="product-price">$129.900</div>
+                        <h5>Pantalón Straight en dril pesado para mujer</h5>
+                        <p> Pantalón para mujer de fit recto y tiro alto moderno.</p>
+                        <div class="product-price">$189.900</div>
                         <button class="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
                     </div>
                 </div>
             </div>
+            
+           
             </section>
               <footer style="display: flex; justify-content: center; gap: 20px; padding: 20px; background: #111;">
         <!-- WhatsApp -->

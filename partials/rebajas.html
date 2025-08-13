@@ -55,18 +55,17 @@
     </div>
 
     <!-- Filtros -->
-    <section class="filters">
-        <!-- Radio buttons ocultos -->
-        <input type="radio" name="category" id="all" checked hidden>
-        <input type="radio" name="category" id="men" hidden>
-        <input type="radio" name="category" id="women" hidden>
-
-        <!-- Etiquetas como botones -->
-        <div class="filter-buttons">
-            <a href="/partials/rebajas.html" class="filter-btn">ver todo</a>
-            <label for="men" class="filter-btn">Hombre</label>
-            <label for="women" class="filter-btn">Mujer</label>
-        </div>
+    <!-- Etiquetas como botones -->
+    <div class="filter-buttons">
+        <a href="#all" class="filter-btn">VER TODO</a>
+        <a href="#men" class="filter-btn">HOMBRE</a>
+        <a href="#women" class="filter-btn">MUJER</a>
+       
+    </div>
+    <span id="men"></span>
+    <span id="women"></span>
+    
+    </section>
 
     </section>
 
@@ -77,7 +76,7 @@
             <div class="row">
                 <!--Producto1-->
                 <div class="col-md-4">
-                    <div class="product-card hombre ">
+                    <div class="producth-card men ">
                         <div class="product-badge">30%OFF</div>
                         <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -115,7 +114,7 @@
                 </div>
                 <!--Producto2-->
                 <div class="col-md-4">
-                    <div class="product-card  mujer">
+                    <div class="producth-card  men">
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -141,7 +140,7 @@
                         <div class="product-info">
 
                             <h5>Camisa con estampado en espalda para hombre</h5>
-                            <p>Camisa tipo Resort redefine el estilo formal. Confeccionada en una mezcla ecológica con lyocell y diseño cómodo.</p>
+                            <p>Esta camisa tipo Resort redefine el estilo formal. Confeccionada en una mezcla ecológica  </p>
                             <div class="product-price">
                             <span class="old-price">Antes: $139.900</span>
                             <span class="new-price">$111.920</span></div>             
@@ -154,7 +153,7 @@
 
                 <!--Producto3-->
                 <div class="col-md-4">
-                    <div class="product-card mujer">
+                    <div class="producth-card women">
 
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
@@ -181,8 +180,7 @@
                         <div class="product-info">
 
                             <h5>Jean Wide Leg con pretina cruzada para mujer</h5>
-                            <p>Jean Wide Leg se ajusta suavemente en la cadera y se 
-                                amplía desde la rodilla hasta la bota, creando una silueta moderna y estilizada.</p>
+                            <p>Este jean Wide  ajusta suavemente en la cadera y se amplía desde la rodilla creando una silueta moderna y estilizada. </p>
                             <div class="product-price">
                             <span class="old-price">Antes: $189.900</span>
                             <span class="new-price">$151.920</span></div> 
@@ -194,7 +192,7 @@
                 </div>
                 <!--Producto4-->
                 <div class="col-md-4">
-                    <div class="product-card hombre">
+                    <div class="producth-card men">
 
                         <div class="product-badge">50%OFF</div>
                         <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
@@ -221,7 +219,7 @@
                         <div class="product-info">
 
                             <h5>Polo en tejido piqué para hombre</h5>
-                            <p>Polo comfort fit en tejido piqué para hombre combina comodidad y estilo con detalles que marcan.</p>
+                            <p>Polo  tejido piqué para hombre combina comodidad y estilo con detalles que marcan.</p>
                             <div class="product-price">
                             <span class="old-price">Antes: $139.900</span>
                             <span class="new-price">$69.950</span></div> 
@@ -233,7 +231,7 @@
                 <!--Producto5-->
                 <div class="col-md-4">
 
-                    <div class="product-card all hombre">
+                    <div class="producth-card women">
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -259,7 +257,7 @@
                         <div class="product-info">
 
                             <h5>Falda larga en tejido de punto para mujer</h5>
-                            <p>Falda larga tipo columna para mujer, confeccionada en tejido de punto.</p>
+                            <p>Esta falda larga tipo columna para mujer, confeccionada en tejido de punto</p>
                              <div class="product-price">
                             <span class="old-price">Antes: $129.900</span>
                             <span class="new-price">$103.920</span></div> 
@@ -270,7 +268,7 @@
                 </div>
                 <!--Producto6-->
                 <div class="col-md-4">
-                    <div class="product-card all mujer">
+                    <div class="producth-card women">
 
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
@@ -296,7 +294,7 @@
                         </div>
                         <div class="product-info">
                             <h5>Camisa manga larga acampanada con tiras para mujer</h5>
-                            <p> Camisa de mujer con un toque delicado en cada detalle. </p>
+                            <p> Camisa con toque delicado en cada detalle. </p>
                             <div class="product-price">
                             <span class="old-price">Antes: $109.900</span>
                             <span class="new-price">$87.920</span></div> 
@@ -306,7 +304,7 @@
                 </div>
                 <!--Producto7-->
                 <div class="col-md-4">
-                    <div class="product-card all mujer">
+                    <div class="producth-card men">
 
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
@@ -342,7 +340,7 @@
                 </div>
                 <!--Producto8-->
                 <div class="col-md-4">
-                    <div class="product-card all hombre">
+                    <div class="producth-card women">
 
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
@@ -369,7 +367,7 @@
                         <div class="product-info">
 
                             <h5>Short de tono claro con rotos para mujer</h5>
-                            <p>short de cinco bolsillos en tela confort se adapta a la figura, brindando comodidad y estilo.</p>
+                            <p>short que brindan comodidad y estilo.</p>
                             <div class="product-price">
                             <span class="old-price">Antes: $159.900</span>
                             <span class="new-price">$127.920</span></div> 
@@ -380,7 +378,7 @@
                 </div>
                 <!--Producto9-->
                 <div class="col-md-4">
-                    <div class="product-card all hombre">
+                    <div class="producth-card men">
 
                         <div class="product-badge">20%OFF</div>
                         <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
@@ -406,7 +404,7 @@
                         </div>
                         <div class="product-info">
                             <h5>Polo tejida con tipping en puños y fajón para hombre</h5>
-                            <p>polo tejida que redefine el estilo clásico con detalles modernos.</p>
+                            <p>polo tejida estilo clásico.</p>
                             <div class="product-price">
                             <span class="old-price">Antes: $179.900</span>
                             <span class="new-price">$143.920</span></div> 
@@ -453,12 +451,7 @@
 
         <a href="/partials/nosotros.html" target="_blank" class="text-light text-decoration-none">
             Nosotros
-        </a>
-        </a>
-        <div class="container text-center">
-            <a href="/partials/nosotros.html" target="_blank" class="text-light text-decoration-none">
-                Nosotros
-            </a><br>
+        </a><br>
             <a href="/partials/servicioAlCliente.html" target="_blank"
                 class="text-light text-decoration-none">
                 Servicio al Cliente
