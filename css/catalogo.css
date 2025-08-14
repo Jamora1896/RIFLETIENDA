@@ -259,8 +259,8 @@ body:not(:has(:target)) .catalogo .producth-card {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgb(2, 59, 14);
-    color: rgb(90, 247, 50);
+    background: rgb(216, 2, 2);
+    color: #fcf9f9;
     padding: 5px 10px;
     font-size: 0.75rem;
     border-radius: 5px;
@@ -272,7 +272,7 @@ body:not(:has(:target)) .catalogo .producth-card {
     height: 300px;
     object-fit: cover;
 }
-
+.product-info h2,
 .product-info h5 {
     padding: 15px;
     color: black;
@@ -292,7 +292,6 @@ body:not(:has(:target)) .catalogo .producth-card {
     
 
 }
-
 
 
 
@@ -349,6 +348,7 @@ body:not(:has(:target)) .catalogo .producth-card {
 }
 
 /* REBAJAS */
+
 .product-price {
   display: flex;
   flex-direction: column;
