@@ -162,6 +162,8 @@
     background-color: #666;
 }
 
+
+/* Filtros de Hombres*/
 .producth-card {
     display: none;
 }
@@ -171,7 +173,6 @@ body:not(:has(:target)) .catalogo .producth-card {
     display: block;
 }
 
-/* Mostrar solo JEANS */
 #jeans:target ~ .catalogo .producth-card.jeans {
     display: block;
 }
@@ -182,6 +183,23 @@ body:not(:has(:target)) .catalogo .producth-card {
     display: block;
 }
 #jackets:target ~ .catalogo .producth-card.jackets {
+    display: block;
+}
+
+
+/*filtros de lo Nuevo*/
+
+.catalogo .product-card {
+    display: none;
+}
+#todo:target ~ .catalogo .product-card ,
+body:not(:has(:target)) .catalogo .product-card {
+    display: block;
+}
+#men:target ~ .catalogo .product-card.men {
+    display: block;
+}
+#women:target ~ .catalogo .product-card.women {
     display: block;
 }
 
@@ -227,7 +245,6 @@ body:not(:has(:target)) .catalogo .producth-card {
 
 
 /* carrusel de productos */
-
 .products-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -239,6 +256,14 @@ body:not(:has(:target)) .catalogo .producth-card {
     overflow: hidden;
     margin-bottom: 50px;
     position: relative;
+}
+.producth-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+
 }
 
 .product-badge {
@@ -263,7 +288,7 @@ body:not(:has(:target)) .catalogo .producth-card {
     padding: 15px;
     color: black;
     text-align:center;
-    text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    
 }
 
 .product-price {
@@ -271,6 +296,11 @@ body:not(:has(:target)) .catalogo .producth-card {
     color: black;
 }
 
+h5{
+text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+}
+
+h2{text-shadow: 3px 3px 8px rgba(0,0,0,0.6);}
 
 
 /* VIDEO*/
@@ -325,7 +355,7 @@ body:not(:has(:target)) .catalogo .producth-card {
 }
 
 .fondo-producto{
-    background-image: url(/RIFLETIENDA/img/fondoCarrito.jpeg);
+    background-image: url(/img/fondoCarrito.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -334,30 +364,20 @@ body:not(:has(:target)) .catalogo .producth-card {
 
 
 /* Servicio al cliente */
-/* El contenedor principal será horizontal */
-.container-contacto {
-    display: flex;
-    flex-wrap: nowrap; /* siempre en una sola línea */
-    align-items: center;
-    justify-content: center;
-    gap: 50px; /* espacio entre cada bloque */
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
 /* Cada item centrado */
-.container-contacto .contacto-item {
-    width: 250px;
+ .contacto-item {
+    max-width: 250px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 
 /* Texto del ítem */
-.container-contacto .contacto-item h3 {
+.contacto-item h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
@@ -365,7 +385,7 @@ body:not(:has(:target)) .catalogo .producth-card {
 }
 
 /* Botón/enlace */
-.container-contacto .contacto-item  a {
+ .contacto-item  a {
      display: flex;
     justify-content: center;
     gap: 20px;
@@ -382,17 +402,10 @@ body:not(:has(:target)) .catalogo .producth-card {
     text-decoration: none;
     
 }
-.container-contacto .contacto-item a:hover,
-.container-contacto .contacto-item a.active {
+.contacto-item a:hover,
+.contacto-item a.active {
     color: white;
     background-color: #666;
-}
-
-/* Línea divisoria */
-.container-contacto .divider {
-    width: 2px;
-    height: 60px;
-    background-color: black;
 }
 
 
