@@ -117,3 +117,9 @@ input[type="password"]{
   display:block;
   transition: 0.5s;
 }
+/*logo*/
+.logo {
+  text-decoration: none;
+  border-bottom: none;
+  box-shadow: none;
+}
