@@ -385,8 +385,12 @@ body:not(:has(:target)) .catalogo .producth-card {
   border-bottom: none;
   box-shadow: none;
 }
-
-
+.info-footer{
+  padding-left: 13%;
+}
+.info-empresa{
+  padding: 2% 1% 0;
+}
 
 
  
