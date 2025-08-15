@@ -81,6 +81,33 @@ input[type="password"]{
   border-radius: 6px;
   transition: border-color 0.3s;
 }
+/* ------------------------PASSWORD------------------------*/
+.password-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-wrapper input {
+    flex: 1;
+    padding-right: 35px; 
+}
+
+.input-wrapper img {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
 .forgot-password {
     text-align: right;
     margin: 5px 0 15px 0;
@@ -95,7 +122,9 @@ input[type="password"]{
 
 .forgot-password a:hover {
     color: #c8102e; /* Rojo RIFLE */
+
 }
+
 
 
 /* ---------------RESPONSIVE--------------- */
@@ -117,6 +146,10 @@ input[type="password"]{
   display:block;
   transition: 0.5s;
 }
+.incorrecto{
+  outline: solid red 1px;
+}
+
 /*logo*/
 .logo {
   text-decoration: none;

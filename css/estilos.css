@@ -637,6 +637,14 @@ h1 {
   .promo-discount .big {
     font-size: 1.8rem;
   }
+  footer {
+  max-width: 100%;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111;
+  flex-wrap: wrap;
+  /* por si se reduce el ancho en móvil */
+}
 }
 
 @media (max-width: 420px) {
@@ -655,18 +663,30 @@ h1 {
   .promo-inner {
     padding: 26px 12px;
   }
-}
-
-
-/* Footer */
-footer {
+  footer {
+  max-width: 100%;
   align-items: center;
   padding: 20px 40px;
   background-color: #111;
   flex-wrap: wrap;
   /* por si se reduce el ancho en móvil */
 }
+}
 
+
+/* Footer */
+.info-footer{
+  padding-left: 13%;
+
+}
+.text-light,
+.text-light:visited,
+.text-light:hover,
+.text-light:active{
+  color: white;
+  text-decoration: none;
+
+}
 footer {
   background: #000;
   color: white;

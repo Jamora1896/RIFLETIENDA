@@ -91,6 +91,12 @@ footer:last-of-type a:hover svg {
   border-bottom: none;
   box-shadow: none;
 }
+.info-footer{
+  padding-left: 13%;
+}
+.info-empresa{
+  padding: 2% 1% 0;
+}
 
 /* Sección principal del footer */
 /*
